@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
-import {
-  Box,
-  CircularProgress,
-  Container,
-  createTheme,
-  Typography,
-} from "@mui/material";
+import Box from "@mui/material/Box";
+import CircularProgress from "@mui/material/CircularProgress";
+import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
+import green from "@mui/material/colors/green";
+import purple from "@mui/material/colors/purple";
+import createTheme from "@mui/system/createTheme";
+
 import { ThemeProvider } from "@emotion/react";
-import { green, purple } from "@mui/material/colors";
 
 const theme = createTheme({
   palette: {
